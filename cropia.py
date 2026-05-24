@@ -751,13 +751,13 @@ CONFIG FILE FORMAT
     gravity=center
 
 EXAMPLES
-  python crop_tool.py ./photos ./out
-  python crop_tool.py ./photos ./out --ratio 16:9 --gravity center
-  python crop_tool.py ./photos ./out --format png --suffix _web --skip
-  python crop_tool.py ./photos ./out --dry-run --verbose --log results.json
-  python crop_tool.py ./photos ./out --config my-shoot.conf --suffix _v2
-  python crop_tool.py ./photos ./out --recursive --pattern "DSC_*" --min-mp 10
-  python crop_tool.py ./photos ./out --preview
+  python cropia.py ./photos ./out
+  python cropia.py ./photos ./out --ratio 16:9 --gravity center
+  python cropia.py ./photos ./out --format png --suffix _web --skip
+  python cropia.py ./photos ./out --dry-run --verbose --log results.json
+  python cropia.py ./photos ./out --config my-shoot.conf --suffix _v2
+  python cropia.py ./photos ./out --recursive --pattern "DSC_*" --min-mp 10
+  python cropia.py ./photos ./out --preview
 """,
     )
 
